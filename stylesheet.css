@@ -37,3 +37,9 @@ a
     color: #e44e2d;
     font-weight: bold;
 }
+#miCanvas
+{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+}
