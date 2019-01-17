@@ -50,6 +50,50 @@ meter
     border-radius:2px;
     color:#e44e2d;
     margin-left : 20px;
-    width: 200px;
-    
+    width: 200px; 
 }
+#tabla
+{
+    background-color: #1d1d1d;
+    color:#FFF;
+}
+
+#habilidad 
+{
+    text-align: right;
+}
+
+label
+{
+    display: block;
+}
+
+#btnSubmit
+{
+    border: none;
+    background-color: #FFF;
+    color: #e44e2d;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+#calificacion
+{
+    width: 150px;
+    -webkit-appearance: none;
+    background-color: #FFF;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calificacion::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    background-color: #e44e2d;
+    border-radius: 10px;
+    height: 15px;
+    width: 10px;
+} 
