@@ -24,17 +24,23 @@
             <section>
                 <div id="textoPr">
                     <hgroup>
-                        <div id="tituloMisHabilidades">
-                                <h1>Estas son mis habilidades</h1>
-                        </div>
+                        <h1>Contáctame</h1>
                     </hgroup>
-                  
-                    <p>HTML:<meter min="0" max="100" value="25">25%</meter></p>
-                    <p>CSS:<meter min="0" max="100" value="25">25%</meter></p>
-                    <p>JAVA:<meter min="0" max="100" value="80">80%</meter></p>
-                    <p>MYSQL:<meter min="0" max="100" value="80">80%</meter></p>
-                    <p>MONGO DB:<meter min="0" max="100" value="50">50%</meter></p>
-                
+                    <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Ingresa tu Nombre" required>
+                        <label for="correo">E-mail</label>
+                        <input type="email" id="correo" placeholder="Ingresa tu e-mail" required>
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" min="0" max="100">
+                        <label for="calificacion">Califícanos:</label>
+                        <input type="range" id="calificacion" min="0" max="10" value="0">
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" id="fecha">
+                        <br>
+                        <input type="submit" value="Enviar Datos" id="btnSubmit">
+                    </form>
+
                 </div>
             </section>
         </div>
